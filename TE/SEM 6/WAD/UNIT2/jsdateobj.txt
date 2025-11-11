@@ -1,0 +1,12 @@
+<html>
+<script type="text/javascript">
+var my_date= new Date();
+document.write("The date is:" + my_date.toString()+"<br>");
+document.write("Today's date is:" + my_date.getDate()+"<br>");
+document.write("This is month of:" + (my_date.getMonth()+1)+"<br>");
+document.write("The current year is:" + my_date.getFullYear()+"<br>");
+document.write("Hour:" + my_date.getHours()+"<br>");
+document.write("Minutes:" + my_date.getMinutes()+"<br>");
+document.write("Seconds:" + my_date.getSeconds()+"<br>");
+</script>
+</html>

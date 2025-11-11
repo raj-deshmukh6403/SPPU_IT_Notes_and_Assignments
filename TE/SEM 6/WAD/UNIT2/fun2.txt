@@ -1,0 +1,26 @@
+<html>
+<head>
+<script>
+function max(p1, p2) {
+    return p1>p2?p1:p2;
+}
+</script>
+</head>
+<body>
+<h2>JavaScript Functions</h2>
+<script>
+var a=new Array();
+for(i=0;i<5;i++)
+{
+a[i]=prompt("enter array element");
+}
+var max_val=a[0];
+for(i=1;i<a.length;i++)
+{
+max_val=max(max_val,a[i]);
+}
+document.write("largest value");
+document.write(max_val);
+</script>
+</body>
+</html>

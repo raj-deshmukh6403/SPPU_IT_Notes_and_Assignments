@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+function remove()
+{
+var n1=document.getElementById("num1");
+n1.removeChild(n1.childNodes[2]);            // remove first child from the list
+}
+</script>
+</head>
+<body>
+<ul id="num1"><li>1</li><li>2</li><li>3</li>
+<button onclick="remove()">remove element</button>
+</body>
+</html>
+
